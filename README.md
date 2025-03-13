@@ -109,7 +109,7 @@ Amul, Milk, 20
 - DAO layer
 - Exception handling
 
-## Code Implementation
+## Code in Java
 ```java
 import java.util.*;
 
@@ -226,7 +226,7 @@ public class Main {
 }
 ```
 
-## Sample Output
+## Output
 ```plaintext
 Error: Price must be positive.
 Error: Quantity must be positive.
