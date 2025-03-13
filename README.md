@@ -196,7 +196,7 @@ public class Main {
         manager.addItem("Milk", "Nestle", 60);
         manager.addItem("Curd", "Nestle", 90);
 
-        // Adding -veytr inventory
+        // Adding -ve inventory
         try {
             manager.addInventory("Milk", "Amul", -5);
         } catch (Exception e) {
