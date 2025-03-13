@@ -225,3 +225,28 @@ public class Main {
     }
 }
 ```
+
+## Sample Output
+```plaintext
+Error: Price must be positive.
+Error: Quantity must be positive.
+
+Search by brand Nestle:
+Brand: Nestle, category: Milk, Price: 60, Quantity: 15
+Brand: Nestle, category: Curd, Price: 90, Quantity: 10
+
+Search by category Milk:
+Brand: Nestle, category: Milk, Price: 60, Quantity: 15
+Brand: Amul, category: Milk, Price: 100, Quantity: 20
+
+Search by category Milk ordered by price descending:
+Brand: Amul, category: Milk, Price: 100, Quantity: 20
+Brand: Nestle, category: Milk, Price: 60, Quantity: 15
+
+Search by price range 70 to 100:
+Brand: Nestle, category: Curd, Price: 90, Quantity: 10
+Brand: Amul, category: Milk, Price: 100, Quantity: 20
+
+Search non-existent category:
+
+```
